@@ -11,3 +11,4 @@ The application will search for the handle every 5 seconds if it doesn't find it
 Alt+Q: Copies the song to the clipboard.
 Alt+X: Terminates the application.
 
+Note: The application only works on Windows since it uses the Windows API for majority of the tasks.
