@@ -52,6 +52,7 @@ int main() {
 				GetWindowText(hwnd, title, sizeof(title));
 				s_title = title;
 				if (s_title == "Spotify") s_title = "No song is being played right now!";
+				else s_title = "Now Playing: " + s_title;
 				copyToClipboard(s_title);
 			}
 			// Exit application on hotkey 2
